@@ -339,7 +339,7 @@ npm run test:independent
 You can also run the independent suite directly:
 
 ```bash
-npx playwright test tests/api-independent.spec.js --project=api-independent
+npx playwright test api-independent.spec.js --project=api-independent
 ```
 
 Generate BDD tests only:
@@ -380,9 +380,8 @@ Source files are not deleted.
 | `npm run test:case1` | Run `@case1` BDD tests |
 | `npm run test:regression` | Run `@case1` through `@case7` |
 | `npm run test:independent` | Run normal Playwright API tests |
-| `npm run allure:generate` | Generate Allure HTML report |
-| `npm run allure:open` | Open Allure report |
-| `npm run clean` | Remove generated files |
+| `allure generate path\to\allure-results -o allure-report --clean` | Generate Allure HTML report |
+| `allure open allure-report` | Open Allure report |
 
 ---
 
@@ -496,7 +495,7 @@ The framework also preserves the original independent Playwright suite:
 Run it with:
 
 ```bash
-npm run test:independent
+npx playwright test api-independent.spec.js --project=api-independent
 ```
 
 ---
@@ -545,7 +544,3 @@ Prefer:
 > **Readable code over clever code.**
 
 ---
-
-# ⭐ Final Principle
-
-> **Do not make the framework impressive by making it complicated. Make it useful by making it simple.**
