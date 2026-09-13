@@ -8,8 +8,6 @@ Build simple and maintainable API automation using **JavaScript, Playwright APIR
 
 ## 📖 About
 
-This framework is a JavaScript migration of the original TypeScript Playwright API BDD framework.
-
 The main goal is **simplicity**. A beginner should be able to open the project in VS Code, understand the flow, change an API request, add a feature, and run the tests without learning complicated framework patterns.
 
 The framework uses:
@@ -444,7 +442,6 @@ No advanced JavaScript patterns are required.
 - No complex design patterns
 - No dependency injection
 - No unnecessary interfaces
-- No TypeScript source code
 
 The intention is that a beginner can follow one API request from the feature file all the way to the REST API.
 
