@@ -2,6 +2,9 @@
 
 ### Beginner-Friendly JavaScript API Automation Framework
 
+<img width="1672" height="941" alt="Ready To Use Automation Framework JavaScript, Playwright, API, BDDgen" src="https://github.com/user-attachments/assets/c47da90b-dbda-4849-abc7-95d544f89d6c" />
+
+
 Build simple and maintainable API automation using **JavaScript, Playwright APIRequest, BDD/Gherkin, playwright-bdd, Faker, and Allure Reporting**.
 
 ---
