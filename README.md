@@ -4,6 +4,9 @@
 
 <img width="1672" height="941" alt="Ready To Use Automation Framework JavaScript, Playwright, API, BDDgen" src="https://github.com/user-attachments/assets/c47da90b-dbda-4849-abc7-95d544f89d6c" />
 
+# YouTube Video Link
+
+# https://youtu.be/Gd_KCFu8hBI
 
 Build simple and maintainable API automation using **JavaScript, Playwright APIRequest, BDD/Gherkin, playwright-bdd, Faker, and Allure Reporting**.
 
@@ -48,6 +51,109 @@ The framework uses:
 - 🟢 Beginner-friendly JavaScript
 
 ---
+
+
+---
+
+# 💻 Prerequisites
+
+Install the following before running the framework:
+
+- Node.js LTS
+- npm
+- Git
+- Google Chrome
+- VS Code or another JavaScript IDE
+- Allure Commandline
+
+Check Node.js:
+
+```bash
+node --version
+```
+
+Check npm:
+
+```bash
+npm --version
+```
+
+Check Allure:
+
+```bash
+allure --version
+```
+
+---
+
+# 🚀 Getting Started
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/imademethink/JavaScript_Playwright_API_BDD_Allure_Framework.git
+```
+
+## 2. Navigate to the Project
+
+```bash
+cd JavaScript_Playwright_API_BDD_Allure_Framework
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Install Playwright Browsers
+
+```bash
+npx playwright install
+```
+
+For Linux CI environments:
+
+```bash
+npx playwright install --with-deps
+```
+
+---
+
+# 🧪 Test Execution
+
+## Run Specific Test with a specific tag
+
+```bash
+npm run test:smoke
+```
+
+## Run All Tests
+
+```bash
+npm run test
+```
+
+## Generate Allure (HTML) report
+
+```bash
+allure generate allure-results -o allure-report --clean
+```
+
+## Open Allure (HTML) report
+
+```bash
+allure open allure-report
+```
+
+---
+
+## Run Regression Tests
+
+```bash
+npm run test:regression
+```
+
 
 ## 🏗 Framework Architecture
 
