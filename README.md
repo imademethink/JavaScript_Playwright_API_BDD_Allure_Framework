@@ -6,7 +6,7 @@
 
 # YouTube Video Link
 
-# https://youtu.be/Gd_KCFu8hBI
+# https://youtu.be/qPx86KIfqpY
 
 Build simple and maintainable API automation using **JavaScript, Playwright APIRequest, BDD/Gherkin, playwright-bdd, Faker, and Allure Reporting**.
 
